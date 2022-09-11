@@ -18,9 +18,9 @@ public class DriverFactory_Grid {
         //Do- nothing----Empty Constructor
     }
 
-    private static final DriverFactory instance = new DriverFactory();
+    private static final DriverFactory_Grid instance = new DriverFactory_Grid();
 
-    public static DriverFactory getInstance(){
+    public static DriverFactory_Grid getInstance(){
         return instance;
     }
     // Thread local driver object for WebDriver
